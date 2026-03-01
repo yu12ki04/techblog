@@ -1,0 +1,19 @@
+{
+  "name": "techblog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "zenn:new": "zenn new:article",
+    "zenn:preview": "zenn preview",
+    "qiita:preview": "qiita preview",
+    "qiita:login": "qiita login"
+  },
+  "keywords": [],
+  "author": "yu12ki04",
+  "license": "MIT",
+  "description": "ZennとQiitaの記事を同時管理するリポジトリ",
+  "dependencies": {
+    "@qiita/qiita-cli": "^1.7.0",
+    "zenn-cli": "^0.4.5"
+  }
+}
